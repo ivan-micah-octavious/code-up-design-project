@@ -11,6 +11,9 @@ font-family: 'Anton', sans-serif; */
   --white: #f0f0f0;
   --grey: #e6e6e6;
 }
+body{
+  background-color: var(--grey);
+}
 
 .logo {
   height: 105px;
@@ -43,22 +46,40 @@ h1, h2{
   background-color: var(--red);
   align-items: center;
   justify-content: center;
+  border: 7px solid white;
 }
 .orange{
   display: flex;
   background-color: var(--orange);
   align-items: center;
   justify-content: center;
+  border: 7px solid white;
 }
 .green{
   display: flex;
   background-color: var(--green);
   align-items: center;
   justify-content: center;
+  border: 7px solid white;
 }
 .blue{
   display: flex;
   background-color: var(--breen);
   align-items: center;
   justify-content: center;
+  border: 7px solid white;
 }
+.circles{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+ hr{
+   margin-left: 150px;
+   margin-top: 50px;
+   width: 80%;
+   opacity: 50%;
+ }
+ .big-pic{
+   max-width: 300px;
+ }
