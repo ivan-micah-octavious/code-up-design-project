@@ -1,4 +1,18 @@
-.logo{
-    height: 105px;
-    width: 105px;
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
+
+/* font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif; */
+
+:root {
+  --red: #e6563b;
+  --orange: #eb9d3a;
+  --green: #7cb06c;
+  --breen: #00aba9;
+  --white: #f0f0f0;
+  --grey: #e6e6e6;
+}
+
+.logo {
+  height: 105px;
+  width: 105px;
 }
