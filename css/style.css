@@ -16,3 +16,49 @@ font-family: 'Anton', sans-serif; */
   height: 105px;
   width: 105px;
 }
+.logo-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.brand{
+font-size: 2rem;
+ margin-left: 10px;
+}
+nav{
+  margin-left: 40px;
+}
+h1, h2{
+  text-align: center;
+  margin-top: 15px;
+}
+.circle{
+  height: 100px;
+  width: 100px;
+  border-radius: 9999px;
+  color: white;
+}
+.red{
+  display: flex;
+  background-color: var(--red);
+  align-items: center;
+  justify-content: center;
+}
+.orange{
+  display: flex;
+  background-color: var(--orange);
+  align-items: center;
+  justify-content: center;
+}
+.green{
+  display: flex;
+  background-color: var(--green);
+  align-items: center;
+  justify-content: center;
+}
+.blue{
+  display: flex;
+  background-color: var(--breen);
+  align-items: center;
+  justify-content: center;
+}
