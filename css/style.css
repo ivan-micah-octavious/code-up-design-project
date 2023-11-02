@@ -11,7 +11,7 @@ font-family: 'Anton', sans-serif; */
   --white: #f0f0f0;
   --grey: #e6e6e6;
 }
-body{
+body {
   background-color: var(--grey);
 }
 
@@ -19,67 +19,122 @@ body{
   height: 105px;
   width: 105px;
 }
-.logo-bar{
+.logo-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.brand{
-font-size: 2rem;
- margin-left: 10px;
+.brand {
+  font-size: 2rem;
+  margin-left: 10px;
 }
-nav{
+nav {
   margin-left: 40px;
 }
-h1, h2{
+h1,
+h2 {
   text-align: center;
   margin-top: 15px;
 }
-.circle{
+.circle {
   height: 100px;
   width: 100px;
   border-radius: 9999px;
   color: white;
 }
-.red{
+.red {
   display: flex;
   background-color: var(--red);
   align-items: center;
   justify-content: center;
   border: 7px solid white;
 }
-.orange{
+.orange {
   display: flex;
   background-color: var(--orange);
   align-items: center;
   justify-content: center;
   border: 7px solid white;
 }
-.green{
+.green {
   display: flex;
   background-color: var(--green);
   align-items: center;
   justify-content: center;
   border: 7px solid white;
 }
-.blue{
+.blue {
   display: flex;
   background-color: var(--breen);
   align-items: center;
   justify-content: center;
   border: 7px solid white;
 }
-.circles{
+.circles {
   display: flex;
   justify-content: center;
   margin-top: 60px;
 }
- hr{
-   margin-left: 150px;
-   margin-top: 50px;
-   width: 80%;
-   opacity: 50%;
- }
- .big-pic{
-   max-width: 300px;
- }
+hr {
+  margin-left: 150px;
+  margin-top: 50px;
+  width: 80%;
+  opacity: 50%;
+}
+.big-pic {
+  max-width: 300px;
+}
+
+.circle-red {
+  background-color: var(--red);
+  width: 25px;
+  height: 25px;
+  border-radius: 9999px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-blue {
+  background-color: var(--breen);
+  width: 25px;
+  height: 25px;
+  border-radius: 9999px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-orange {
+  background-color: var(--orange);
+  width: 25px;
+  height: 25px;
+  border-radius: 9999px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-green {
+  background-color: var(--green);
+  width: 25px;
+  height: 25px;
+  border-radius: 9999px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-pic {
+  width: 100px;
+  height: 100px;
+}
+.section-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.man-pic {
+  height: 200px;
+  width: 300px;
+}
