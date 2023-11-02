@@ -153,6 +153,7 @@ ul{
 .section-header{
   font-family: 'Abel', sans-serif;
   font-size: 15px;
+  padding-right: 150px;
 }
 .featured-project{
   font-family: 'Abel', sans-serif;
@@ -167,8 +168,44 @@ p.last-tweet{
   width:400px;
   margin-top: -20px;
 }
+.last-pic{
+  margin-bottom: 30px;
+}
+.right-column{
+  margin-left: 50px;
+}
+.nav-toggle {
+  display: none;
+}
 
-@media screen and (max-width: 992px){
+.navbar-toggle {
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: none; /* Hide links by default */
+}
+
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+.hide-nav{
+  display: none;
+}
+
+#nav-toggle:checked + .navbar-toggle + .navbar-links {
+  display: block;
+}
+.left-col{
+margin-left: 140px;
+}
+
+@media screen and (max-width: 1200px){
   .left-header{
     margin-bottom: 30px;
   }
@@ -179,14 +216,31 @@ p.last-tweet{
   .second-row{
     gap:60px;
   }
+  .left-col{
+    margin: 0;
+  }
+  .right-column{
+    margin: 0;
+  }
+  p.last-tweet{
+    width: 200px;
+  }
 }
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
   .right-column{
     display: none;
   }
   .brand{
     display: none;
+  }
+  li{
+    display: none;
+  }
+  .hide-nav{
+    display: flex;
+  }
+  .logo-bar{
+
   }
 
 }
