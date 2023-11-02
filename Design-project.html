@@ -28,12 +28,15 @@
             </nav>
             <nav class="hide-nav">
               <input type="checkbox" id="nav-toggle" class="nav-toggle">
-              <img for="nav-toggle" class="navbar-toggle" src="./img/list.svg">
-              <div class="navbar-links">
-                <a href="#">SERVICES</a>
-                <a href="#">WORK</a>
-                <a href="#">BLOG</a>
-                <a href="#">CONTACT</a>
+              <label for="nav-toggle" class="navbar-toggle"></label>
+              <div class="dropdown">
+                <button class="dropbtn"><img src="./img/list.svg"></button>
+                <div class="dropdown-content">
+                  <a href="#">SERVICES</a>
+                  <a href="#">WORK</a>
+                  <a href="#">BLOG</a>
+                  <a href="#">CONTACT</a>
+                </div>
               </div>
             </nav>
           </div>
@@ -53,8 +56,6 @@
                 <div class="circle green">SUPPORT</div>
                 <div class="circle blue">HOST</div>
               </div>
-
-
             </div>
           </div>
         </div>
@@ -72,9 +73,9 @@
                 <div class="d-flex featured-project align-items-center gap-70">
                   <p class="featured-project">FEATURED PROJECT</p>
                   <div class="small-circles d-flex align-items-center gap-10">
-                    <div class="circle-red">D</div>
-                    <div class="circle-orange">D</div>
-                    <div class="circle-green">S</div>
+                    <div id="red" class="circle-red">D</div>
+                    <div id="orange" class="circle-orange">D</div>
+                    <div id="green" class="circle-green">S</div>
                     <div class="circle-blue">H</div>
                   </div>
                 </div>
@@ -92,7 +93,6 @@
                 </div>
               </div>
             </div>
-
             <!-- Section 3 the second row of two pics + words and circles -->
             <div class="d-flex first-pic gap-25">
               <div>

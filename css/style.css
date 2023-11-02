@@ -155,7 +155,8 @@ ul{
 .section-header{
   font-family: 'Abel', sans-serif;
   font-size: 15px;
-  padding-right: 150px;
+  padding-right: 300px;
+  text-align:center;
 }
 .featured-project{
   font-family: 'Abel', sans-serif;
@@ -199,7 +200,7 @@ p.last-tweet{
   padding: 10px;
 }
 .hide-nav{
-  display: none;
+
 }
 
 #nav-toggle:checked + .navbar-toggle + .navbar-links {
@@ -208,6 +209,41 @@ p.last-tweet{
 .left-col{
 margin-left: 140px;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-right: 40px;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid purple;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none; /* Hide dropdown by default */
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* Show dropdown on hover */
+}
+/*MEDIA QUARY START*/
 @media screen and (max-width: 1200px){
   .left-header{
     margin-bottom: 30px;
@@ -244,7 +280,7 @@ margin-left: 140px;
 
   .hide-nav {
     position: absolute;
-    right: 0px;
+    right: 0;
     display: flex;
   }
  .left-header{
@@ -297,5 +333,4 @@ margin-left: 140px;
   .circle{
     margin: 10px;
   }
-
 }
