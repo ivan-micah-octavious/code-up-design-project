@@ -244,6 +244,9 @@ margin-left: 140px;
 .dropdown:hover .dropdown-content {
   display: block; /* Show dropdown on hover */
 }
+.red-orange{
+  flex-wrap: wrap;
+}
 /*MEDIA QUARY START*/
 @media screen and (max-width: 1200px){
   .left-header{
@@ -334,10 +337,10 @@ margin-left: 140px;
   .circle{
     margin: 10px;
   }
-  .green{
-    background-color: var(--orange);
-  }
-  .orange{
-    background-color: var(--green);
+
+  .red-orange{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:200px;
   }
 }
