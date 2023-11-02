@@ -20,6 +20,8 @@ body {
 .logo {
   height: 30px;
   width: 30px;
+  margin: 10px 0px;
+
 }
 .logo-bar {
   display: flex;
@@ -279,16 +281,21 @@ margin-left: 140px;
   }
   .man-pic{
     height:auto;
-    width: 454px;
+    width: 576px;
   }
   hr{
     display: none;
   }
-  .circle-red{
-    position: absolute;
-    right: 0;
-  }
   .circles{
-    width: 0;
+    flex-direction: row;
   }
+  h1{
+    margin-left: 50px;
+    width: 450px;
+    font-size: 60px;
+  }
+  .circle{
+    margin: 10px;
+  }
+
 }
