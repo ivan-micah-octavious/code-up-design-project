@@ -180,8 +180,10 @@ p.last-tweet{
 
 .navbar-toggle {
   color: #fff;
-  padding: 10px;
+  margin: 10px;
   cursor: pointer;
+  width: 30px;
+  height: 30px;
 }
 
 .navbar-links {
@@ -204,7 +206,6 @@ p.last-tweet{
 .left-col{
 margin-left: 140px;
 }
-
 @media screen and (max-width: 1200px){
   .left-header{
     margin-bottom: 30px;
@@ -226,21 +227,68 @@ margin-left: 140px;
     width: 200px;
   }
 }
-@media screen and (max-width: 992px){
-  .right-column{
+@media screen and (max-width: 992px) {
+  .right-column {
     display: none;
   }
-  .brand{
+
+  .brand {
     display: none;
   }
-  li{
+
+  li {
     display: none;
   }
-  .hide-nav{
+
+  .hide-nav {
+    position: absolute;
+    right: 0px;
     display: flex;
   }
-  .logo-bar{
-
+ .left-header{
+   text-align: center;
+   padding: 0;
+ }
+ hr{
+   width: 65%;
+ }
+ .first-pic{
+   display: flex;
+   justify-content: center;
+ }
+ h1{
+   margin-left: 70px;
+   width:600px;
+ }
+}
+@media screen and (max-width: 576px) {
+  .d-flex{
+    flex-direction: column;
+    gap: 0;
   }
-
+  .small-circles{
+    flex-direction: row;
+  }
+  .featured-project{
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  .big-pic{
+    max-width: 100%;
+    height:auto;
+  }
+  .man-pic{
+    height:auto;
+    width: 454px;
+  }
+  hr{
+    display: none;
+  }
+  .circle-red{
+    position: absolute;
+    right: 0;
+  }
+  .circles{
+    width: 0;
+  }
 }
