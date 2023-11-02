@@ -33,7 +33,7 @@
 .row {
   display: flex;
   width: 100%;
-  max-width: 1100px;
+  /*max-width: 1100px;*/
   padding: 0 20px;
 }
 .row.full-width {
@@ -132,6 +132,15 @@
 }
 .gap-30 {
   gap: 30px;
+}
+.gap-50{
+  gap: 50px
+}
+.gap-60{
+  gap: 60px
+}
+.gap-70{
+  gap: 70px
 }
 /* Padding Utility classes */
 .p-0 {
@@ -292,6 +301,13 @@
 .mx-30 {
   margin-left: 30px;
   margin-right: 30px;
+}
+.mx-50 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.ml-140 {
+  margin-left: 140px;
 }
 /* Other utility classes */
 .text-center {

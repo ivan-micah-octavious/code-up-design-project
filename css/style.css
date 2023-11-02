@@ -14,11 +14,12 @@ font-family: 'Anton', sans-serif; */
 body {
   background-color: var(--grey);
   font-family: 'Anton', sans-serif;
+  max-width: 100%;
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 .logo-bar {
   display: flex;
@@ -26,20 +27,26 @@ body {
   align-items: center;
 }
 .brand {
-  font-size: 2rem;
+  font-size: 15px;
   margin-left: 10px;
+  font-weight:500;
+  font-family: 'Abel', sans-serif;
+
+
 }
 nav {
   margin-left: 40px;
 }
-h1,
-h2 {
+h1,h2 {
   text-align: center;
   margin-top: 15px;
 }
+h1{
+  font-size:48px;
+}
 .circle {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   border-radius: 9999px;
   color: white;
 }
@@ -48,28 +55,28 @@ h2 {
   background-color: var(--red);
   align-items: center;
   justify-content: center;
-  border: 7px solid white;
+  border: 5px solid white;
 }
 .orange {
   display: flex;
   background-color: var(--orange);
   align-items: center;
   justify-content: center;
-  border: 7px solid white;
+  border: 5px solid white;
 }
 .green {
   display: flex;
   background-color: var(--green);
   align-items: center;
   justify-content: center;
-  border: 7px solid white;
+  border: 5px solid white;
 }
 .blue {
   display: flex;
   background-color: var(--breen);
   align-items: center;
   justify-content: center;
-  border: 7px solid white;
+  border: 5px solid white;
 }
 .circles {
   display: flex;
@@ -127,8 +134,8 @@ hr {
   justify-content: center;
 }
 .side-pic {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 .section-header {
   text-align: center;
@@ -139,22 +146,39 @@ hr {
   height: 200px;
   width: 300px;
 }
+ul{
+  font-family: 'Abel', sans-serif;
+  font-size:12px;
+}
+.section-header{
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+}
+.featured-project{
+  font-family: 'Abel', sans-serif;
+  font-size: 12px;
+}
+.last-tweet{
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+p.last-tweet{
+  width:400px;
+  margin-top: -20px;
+}
 
 @media screen and (max-width: 992px){
-
   .left-header{
     margin-bottom: 30px;
   }
-
   .side-pic {
     width: 80px;
     height: 80px;
   }
-
   .second-row{
     gap:60px;
   }
-
 }
 
 @media screen and (max-width: 768px){
