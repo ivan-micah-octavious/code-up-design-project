@@ -200,6 +200,7 @@ p.last-tweet{
   padding: 10px;
 }
 .hide-nav{
+  display: none;
 
 }
 
@@ -332,5 +333,11 @@ margin-left: 140px;
   }
   .circle{
     margin: 10px;
+  }
+  .green{
+    background-color: var(--orange);
+  }
+  .orange{
+    background-color: var(--green);
   }
 }
