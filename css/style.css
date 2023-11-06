@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
 
-/* font-family: 'Abel', sans-serif;
-font-family: 'Anton', sans-serif; */
-
 :root {
   --red: #e6563b;
   --orange: #eb9d3a;
@@ -191,7 +188,7 @@ p.last-tweet{
 }
 
 .navbar-links {
-  display: none; /* Hide links by default */
+  display: none;
 }
 
 .navbar-links a {
@@ -227,7 +224,7 @@ margin-left: 140px;
 }
 
 .dropdown-content {
-  display: none; /* Hide dropdown by default */
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -243,12 +240,12 @@ margin-left: 140px;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block; /* Show dropdown on hover */
+  display: block;
 }
 .red-orange{
   flex-wrap: wrap;
 }
-/*MEDIA QUARY START*/
+
 @media screen and (max-width: 1200px){
   .left-header{
     margin-bottom: 30px;
